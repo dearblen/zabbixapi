@@ -1,0 +1,11 @@
+[
+  {
+    "keyList": ["GanSuMobilengx", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","80connectNum"]
+  },
+  {
+    "keyList": ["GanSuMobilenWEB01", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","8080connectNum","3306connectNum","11211connectNum"]
+  },
+  {
+    "keyList": ["GanSuMobilenWEB02", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","8080connectNum","3306connectNum","11211connectNum"]
+  }
+]
