@@ -3,9 +3,33 @@
     "keyList": ["GanSuMobilengx", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","80connectNum"]
   },
   {
-    "keyList": ["GanSuMobilenWEB01", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","8080connectNum","3306connectNum","11211connectNum"]
+    "keyList": ["GanSuMobilenWEB01", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team1]","net.if.in[team1]","8080connectNum","3306connectNum","11211connectNum"]
   },
   {
-    "keyList": ["GanSuMobilenWEB02", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team0]","net.if.in[team0]","8080connectNum","3306connectNum","11211connectNum"]
+    "keyList": ["GanSuMobilenWEB02", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[team1]","net.if.in[team1]","8080connectNum","3306connectNum","11211connectNum"]
+  },
+    {
+    "keyList": ["TJTVcenterWEB00", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[enp2s0f0]","net.if.in[enp2s0f0]","80connectNum"]
+  },
+  {
+    "keyList": ["TJTVcenterWEB01", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[enp2s0f0]","net.if.in[enp2s0f0]","8080connectNum","3306connectNum","11211connectNum"]
+  },
+    {
+    "keyList": ["TJTVcenterWEB02", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[enp2s0f0]","net.if.in[enp2s0f0]","8080connectNum","3306connectNum","11211connectNum"]
+  },
+    {
+    "keyList": ["TJGDngx", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[eth0]","net.if.in[eth0]","80connectNum"]
+  },
+    {
+    "keyList": ["TJGDweb01", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[eth0]","net.if.in[eth0]","8080connectNum","11211connectNum"]
+  },
+    {
+    "keyList": ["TJGDweb02", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[eth0]","net.if.in[eth0]","8080connectNum","11211connectNum"]
+  },
+     {
+    "keyList": ["TJGDDBS", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[eth0]","net.if.in[eth0]","3306connectNum"]
+  },
+    {
+    "keyList": ["TJGDDBM", "system.cpu.util[,idle]","vm.memory.size[available]","vm.memory.size[total]","vfs.fs.size[/,free]","vfs.fs.size[/,total]","net.if.out[eth0]","net.if.in[eth0]","3306connectNum"]
   }
 ]

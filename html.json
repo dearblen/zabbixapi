@@ -1,0 +1,13 @@
+[
+  {"htmlkey": ["GanSuMobilengx","gansu/gansunginx.html","80num"]},
+  {"htmlkey": ["GanSuMobilenWEB01","gansu/gansuweb01.html","3306num","11211num","8080num"]},
+  {"htmlkey": ["GanSuMobilenWEB02","gansu/gansuweb02.html","3306num","11211num","8080num"]},
+  {"htmlkey": ["TJTVcenterWEB00","tianjincucc/tianjincuccnginx.html","80num"]},
+  {"htmlkey": ["TJTVcenterWEB01","tianjincucc/tianjincuccweb01.html","3306num","11211num","8080num"]},
+  {"htmlkey": ["TJTVcenterWEB02","tianjincucc/tianjincuccweb02.html","3306num","11211num","8080num"]},
+  {"htmlkey": ["TJGDngx","tianjinRaT/tianjinRaTnginx.html","80num"]},
+  {"htmlkey": ["TJGDweb01","tianjinRaT/tianjinRaTweb01.html","11211num","8080num"]},
+  {"htmlkey": ["TJGDweb02","tianjinRaT/tianjinRaTweb02.html","11211num","8080num"]},
+  {"htmlkey": ["TJGDDBS","tianjinRaT/tianjinRaTdb02.html","3306num"]},
+  {"htmlkey": ["TJGDDBM","tianjinRaT/tianjinRaTdb01.html","3306num"]}
+]

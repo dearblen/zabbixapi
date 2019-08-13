@@ -62,7 +62,7 @@ class ZabbixAPI:
    "search": {
             "key_": key
              },
-    },
+   },
    "auth": self.__token_id,
    "id":1,       
   }
@@ -150,22 +150,23 @@ class ZabbixAPI:
    host=(self.GetJson()[i]['keyList'][0])
    keylist=(self.GetJson()[i]['keyList'][1::])
    for key in keylist:
-    if (key == "system.cpu.util[,idle]") or (key == "vfs.fs.size[/,pfree]"):
+    if key == "system.cpu.util[,idle]":
      value=self.ItemValueGET_flaot(host,key)
      #print("{0} 的 {1} 是{2}%".format(host,key,float(value[0]['value'])))
+     #print("{0} 的 {1} 是{2}%".format(host, key, float(value[0]['value'])))
      self.insertMysqlF(host,key,float(value[0]['value']))
     else:
      value=self.ItemValueGET_int(host,key)
      #print("{0} 的 {1} 是{2}".format(host,key,float(value[0]['value'])))
+     #print(host, key, value)
      self.insertMysqlI(host, key, float(value[0]['value']))
     
 
 def main():
  zapi=ZabbixAPI()
- while True:
-  zapi.loadIni()
- print(os.getpid())
-
+ #while True:
+ zapi.loadIni()
+ #print(os.getpid())
 
 if __name__ == '__main__':
  main()

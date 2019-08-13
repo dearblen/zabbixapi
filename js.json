@@ -1,0 +1,101 @@
+[
+  {
+    "jskey": [
+      "GanSuMobilengx",
+      ["js/gansu/gansunginxcpu.js","cpu"],
+      ["js/gansu/gansunginxmem.js","mem"],
+      ["js/gansu/gansunginxnetOut.js","NetOut"],
+      ["js/gansu/gansunginxnetIn.js","NetIn"]
+    ]
+  },
+  {
+    "jskey": [
+      "GanSuMobilenWEB01",
+      ["js/gansu/gansuweb01cpu.js","cpu"],
+      ["js/gansu/gansuweb01mem.js","mem"],
+      ["js/gansu/gansuweb01netOut.js","NetOut"],
+      ["js/gansu/gansuweb01netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "GanSuMobilenWEB02",
+      ["js/gansu/gansuweb02cpu.js","cpu"],
+      ["js/gansu/gansuweb02mem.js","mem"],
+      ["js/gansu/gansuweb02netOut.js","NetOut"],
+      ["js/gansu/gansuweb02netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJTVcenterWEB00",
+      ["js/tianjincucc/tianjincuccnginxcpu.js","cpu"],
+      ["js/tianjincucc/tianjincuccnginxmem.js","mem"],
+      ["js/tianjincucc/tianjincuccnginxnetOut.js","NetOut"],
+      ["js/tianjincucc/tianjincuccnginxnetIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJTVcenterWEB01",
+      ["js/tianjincucc/tianjincuccweb01cpu.js","cpu"],
+      ["js/tianjincucc/tianjincuccweb01mem.js","mem"],
+      ["js/tianjincucc/tianjincuccweb01netOut.js","NetOut"],
+      ["js/tianjincucc/tianjincuccweb01netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJTVcenterWEB02",
+      ["js/tianjincucc/tianjincuccweb02cpu.js","cpu"],
+      ["js/tianjincucc/tianjincuccweb02mem.js","mem"],
+      ["js/tianjincucc/tianjincuccweb02netOut.js","NetOut"],
+      ["js/tianjincucc/tianjincuccweb02netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJGDngx",
+      ["js/tianjinRaT/tianjinRaTnginxcpu.js","cpu"],
+      ["js/tianjinRaT/tianjinRaTnginxmem.js","mem"],
+      ["js/tianjinRaT/tianjinRaTnginxnetOut.js","NetOut"],
+      ["js/tianjinRaT/tianjinRaTnginxnetIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJGDweb01",
+      ["js/tianjinRaT/tianjinRaTweb01cpu.js","cpu"],
+      ["js/tianjinRaT/tianjinRaTweb01mem.js","mem"],
+      ["js/tianjinRaT/tianjinRaTweb01netOut.js","NetOut"],
+      ["js/tianjinRaT/tianjinRaTweb01netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJGDweb02",
+      ["js/tianjinRaT/tianjinRaTweb02cpu.js","cpu"],
+      ["js/tianjinRaT/tianjinRaTweb02mem.js","mem"],
+      ["js/tianjinRaT/tianjinRaTweb02netOut.js","NetOut"],
+      ["js/tianjinRaT/tianjinRaTweb02netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJGDDBM",
+      ["js/tianjinRaT/tianjinRaTdb01cpu.js","cpu"],
+      ["js/tianjinRaT/tianjinRaTdb01mem.js","mem"],
+      ["js/tianjinRaT/tianjinRaTdb01netOut.js","NetOut"],
+      ["js/tianjinRaT/tianjinRaTdb01netIn.js","NetIn"]
+    ]
+  },
+    {
+    "jskey": [
+      "TJGDDBS",
+      ["js/tianjinRaT/tianjinRaTdb02cpu.js","cpu"],
+      ["js/tianjinRaT/tianjinRaTdb02mem.js","mem"],
+      ["js/tianjinRaT/tianjinRaTdb02netOut.js","NetOut"],
+      ["js/tianjinRaT/tianjinRaTdb02netIn.js","NetIn"]
+    ]
+  }
+]

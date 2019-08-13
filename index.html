@@ -1,0 +1,77 @@
+﻿<html>
+
+<head>
+<style>
+.dropbtn {
+    background-color: #af1a31;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+	z-index:10;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #16168e;
+}
+</style>
+</head>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">甘肃移动服务器</button>
+  <div class="dropdown-content">
+    <li><a href="gansu/gansunginx.html" target="content">LB</a></li>
+    <li><a href="gansu/gansuweb01.html" target="content">SERVER_A</a></li>
+    <li><a href="gansu/gansuweb02.html" target="content">SERVER_B</a></li>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">天津联通服务器</button>
+  <div class="dropdown-content">
+    <li><a href="tianjincucc/tianjincuccnginx.html" target="content">LB</a></li>
+    <li><a href="tianjincucc/tianjincuccweb01.html" target="content">SERVER_A</a></li>
+    <li><a href="tianjincucc/tianjincuccweb02.html" target="content">SERVER_B</a></li>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">天津广电服务器</button>
+  <div class="dropdown-content">
+    <li><a href="tianjinRaT/tianjinRaTnginx.html" target="content">LB</a></li>
+	<li><a href="tianjinRaT/tianjinRaTdb01.html" target="content">db_m</a></li>
+    <li><a href="tianjinRaT/tianjinRaTdb02.html" target="content">db_s</a></li>
+    <li><a href="tianjinRaT/tianjinRaTweb01.html" target="content">SERVER_A</a></li>
+    <li><a href="tianjinRaT/tianjinRaTweb02.html" target="content">SERVER_B</a></li>
+  </div>
+</div>
+</body>
+
+</html>

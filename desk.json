@@ -1,0 +1,13 @@
+[
+  {"deskjs": ["GanSuMobilengx","js/gansu/gansunginxdesk.js"]},
+  {"deskjs": ["GanSuMobilenWEB01","js/gansu/gansuweb01desk.js"]},
+  {"deskjs": ["GanSuMobilenWEB02","js/gansu/gansuweb02desk.js"]},
+  {"deskjs": ["TJTVcenterWEB00","js/tianjincucc/tianjincuccnginxdesk.js"]},
+  {"deskjs": ["TJTVcenterWEB01","js/tianjincucc/tianjincuccweb01desk.js"]},
+  {"deskjs": ["TJTVcenterWEB02","js/tianjincucc/tianjincuccweb02desk.js"]},
+  {"deskjs": ["TJGDngx","js/tianjinRaT/tianjinRaTnginxdesk.js"]},
+  {"deskjs": ["TJGDweb01","js/tianjinRaT/tianjinRaTweb01desk.js"]},
+  {"deskjs": ["TJGDweb02","js/tianjinRaT/tianjinRaTweb02desk.js"]},
+  {"deskjs": ["TJGDDBS","js/tianjinRaT/tianjinRaTdb02desk.js"]},
+  {"deskjs": ["TJGDDBM","js/tianjinRaT/tianjinRaTdb01desk.js"]}
+]
