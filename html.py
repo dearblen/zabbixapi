@@ -170,13 +170,10 @@ class DataGET :
  def Changejs(self,file,hostname,key):
   list=self.ConnectDB(hostname,key)
   f = open("{}".format(file), 'r+', encoding="utf-8")
-  new = []
-  for line in f:
-   new.append(line)
-  new[42] ="            data:%s,\n" % (list)
-  f.seek(0)
-  for n in new:
-   f.write(n)
+  flist=f.readlines()
+  flist[42] ="            data:%s,\n" % (list)
+  f=open("{}".format(file),'w+',encoding="utf-8")
+  f.writelines(flist)
   f.close()
 
  def Changedeskjs(self,hostname,file):
@@ -185,14 +182,12 @@ class DataGET :
   list3=list1[0]-list2[0]
   #print(list1[0],list2[0],list3)
   f = open("{}".format(file), 'r+', encoding="utf-8")
-  new = []
-  for line in f:
-   new.append(line)
-  new[36] ="                {value:%s, name:'已用容量G'},\n" % (int(list3/1024/1024/1024))
-  new[37] = "                {value:%s, name:'剩余容量G'},,\n" % (int(list2[0]/1024/1024/1024))
-  f.seek(0)
-  for n in new:
-   f.write(n)
+  f = open("{}".format(file), 'r+', encoding="utf-8")
+  flist=f.readlines()
+  flist[36] ="                {value:%s, name:'已用容量G'},\n" % (int(list3/1024/1024/1024))
+  flist[37] ="                {value:%s, name:'剩余容量G'},,\n" % (int(list2[0]/1024/1024/1024))
+  f=open("{}".format(file),'w+',encoding="utf-8")
+  f.writelines(flist)
   f.close()
 
  def Changehtml(self,hostname,key,file):
