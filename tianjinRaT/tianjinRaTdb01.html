@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 引入 ECharts 文件 -->
+    <script src="../js/echarts.min.js"></script>
+    <style>
+        #content_box{
+            width: 300px;
+            height: 400px;
+            float: left;
+            border: 1px solid black;
+            border-radius:30px;
+        }
+        .order_num{
+            font-size: 40px;
+            color: black;
+            text-align: center;
+            line-height: 45px;
+            font-family:Arial,Verdana,Sans-serif;
+            font-weight: 900;
+            margin-top: 30px;
+        }
+        #text{
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: 45px;
+            font-family:"Times New Roman",Georgia,Serif;
+            font-weight: 500
+        }
+    </style>
+
+</head>
+<body>
+    <div id="tianjinRaTdb01cpu" style="width: 600px;height:400px;float:left;"></div>
+    <script src="../js/tianjinRaT/tianjinRaTdb01cpu.js"></script>
+    <div id="tianjinRaTdb01mem" style="width: 600px;height:400px;float:left;"></div>
+    <script src="../js/tianjinRaT/tianjinRaTdb01mem.js"></script>
+    <div id="tianjinRaTdb01netIn" style="width: 600px;height:400px;float:left;"></div>
+    <script src="../js/tianjinRaT/tianjinRaTdb01netIn.js"></script>
+    <div id="tianjinRaTdb01netOut" style="width: 600px;height:400px;float:left;"></div>
+    <script src="../js/tianjinRaT/tianjinRaTdb01netOut.js"></script>
+    <div id="tianjinRaTdb01desk" style="width: 600px;height:400px;float:left;"></div>
+    <script src="../js/tianjinRaT/tianjinRaTdb01desk.js"></script>
+    <div id="content_box">
+        <div id="order_num" class="order_num">15</div> 
+        <div id="text">3306最大连接数</div>
+    </div>
+</body>
+</html>
+
+
